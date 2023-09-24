@@ -1,4 +1,4 @@
-# Germany COVID-19 database
+# Germany COVID-19 Database
 
 ## Description
 
