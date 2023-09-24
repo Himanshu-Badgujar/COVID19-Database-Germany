@@ -20,7 +20,6 @@ This project was created as part of my 'Communication & Visualization' subject.
 Before using this program, ensure that you have the following prerequisites installed on your system:
 
 - Python
-- Poetry
 - Apache
 - Perl
 - HTML
