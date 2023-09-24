@@ -31,7 +31,7 @@ Before using this program, ensure that you have the following prerequisites inst
 - git clone git@github.com:Himanshu-Badgujar/COVID19-Database-Germany.git
 - Install Apache server
 - Paste scripts in var/www/html/
-- type localhost in browser
+- Type localhost in your browser
 
 ## Contribution
 
