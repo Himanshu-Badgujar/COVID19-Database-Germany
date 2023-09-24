@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GERMANY COVID-19 DATABASE</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    
+    .container {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background-color: #f9f9f9;
+    }
+    
+    .button {
+      display: inline-block;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      text-decoration: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+  <script>
+    function runScript() {
+      var xhr = new XMLHttpRequest();
+      xhr.open("GET", "runMain.php", true);
+      xhr.send();
+      
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+          window.location.href = "table.html";
+        }
+      };
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>GERMANY COVID-19 DATABASE</h1>
+    <button class="button" onclick="runScript()">Show Database</button>
+  </div>
+</body>
+</html>
+
